@@ -29,3 +29,7 @@ The call should be establish immediately so you better be quick and pick up that
 ## Version
 
 0.1.0
+
+## License
+
+[WTFPL](LICENSE)
