@@ -1,7 +1,9 @@
-alfred-ciscocall
-==============
+alfred-ciscocall (WIP)
+======================
 
 Simple Alfred workflow to initiate phone calls via a Cisco IP Phone. (Currently tested with a 7590 only)
+
+
 
 ## Usage
 
