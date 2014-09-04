@@ -12,7 +12,7 @@ if [[ -z ${CISCOIP} || -z ${CISCOUSER} || -z ${CISCOPASS} || -z ${CISCOENDPOINT}
 fi
 
 # Display output
-RAWRESPONSE=$(curl -s --data 'XML=<CiscoIPPhoneExecute><ExecuteItem URL="Dial:'${PHONENUMBER}'" /></CiscoIPPhoneExecute>' http://ss${CISCOUSER}:${CISCOPASS}@${CISCOIP}:${CISCOPORT}/CGI/Execute)
+RAWRESPONSE=$(curl -s --data 'XML=<CiscoIPPhoneExecute><ExecuteItem URL="Dial:'${PHONENUMBER}'" /></CiscoIPPhoneExecute>' http://${CISCOUSER}:${CISCOPASS}@${CISCOIP}:${CISCOPORT}/CGI/Execute)
 STATUSCODE=$?
 
 # Check exit code of curl command
