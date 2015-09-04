@@ -26,7 +26,7 @@ The call should be establish immediately so you better be quick and pick up that
 1. Download the [`alfred-ciscocall.alfredworkflow`](https://github.com/frdmn/alfred-ciscocall/releases) file from GitHub releases
 1. Double click to execute and import the workflow into Alfred
 1. Download the default config file `.alfred-ciscocall.conf` into your home folder:  
-`curl https://github.com/frdmn/alfred-ldap/blob/master/.alfred-ldap.conf -o ~/.alfred-ldap.conf`
+`curl https://raw.githubusercontent.com/frdmn/alfred-ciscocall/master/.alfred-ciscocall.conf -o ~/.alfred-ciscocall.conf`
 1. Adjust the credentials to your VoIP phone:  
 `vi ~/.alfred-ciscocall.conf`
 
